@@ -6,18 +6,18 @@ TEST(TestCaseName, TestName) {
   EXPECT_TRUE(true);
 }
 
-TEST(TestgetSumSum, TestPlus) {
+TEST(CalTestSuite, SumSumTestPlus) {
 	EXPECT_EQ(getSumSum(2, 1, 3), 2 + 1 + 3);
 }
 
-TEST(TestgetSumSum, TestMinus) {
+TEST(CalTestSuite, SumSumTestMinus) {
 	EXPECT_EQ(getSumSum(-2, -1, -3), -2 + -1 + -3);
 }
 
-TEST(TestgetSumSum, TestZero) {
+TEST(CalTestSuite, SumSumTestZero) {
 	EXPECT_EQ(getSumSum(0, 0, 0), 0);
 }
 
-TEST(TestgetSumSum, TestMix) {
+TEST(CalTestSuite, SumSumTestMix) {
 	EXPECT_EQ(getSumSum(5, -1, 2), 6);
 }
