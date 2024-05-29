@@ -8,14 +8,18 @@ TEST(TestCaseName, TestName) {
   EXPECT_TRUE(true);
 }
 
-TEST(TestgetSumSum, Test1) {
+TEST(TestgetSumSum, TestPlus) {
 	EXPECT_EQ(getSumSum(2, 1, 3), 2 + 1 + 3);
 }
 
-TEST(TestgetSumSum, Test2) {
+TEST(TestgetSumSum, TestMinus) {
 	EXPECT_EQ(getSumSum(-2, -1, -3), -2 + -1 + -3);
 }
 
-TEST(TestgetSumSum, Test23) {
+TEST(TestgetSumSum, TestZero) {
 	EXPECT_EQ(getSumSum(0, 0, 0), 0);
+}
+
+TEST(TestgetSumSum, TestMix) {
+	EXPECT_EQ(getSumSum(5, -1, 2), 6);
 }
