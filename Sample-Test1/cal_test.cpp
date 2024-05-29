@@ -4,9 +4,7 @@
 
 TEST(CalcTest, ZegopTest) {
 	int zegopResult = getZegop(3);
-
 	EXPECT_EQ(zegopResult, 9);
-	EXPECT_TRUE(true);
 }
 
 TEST(TestCaseName, TestName) {
