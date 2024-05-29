@@ -47,4 +47,8 @@ TEST(calcTest, MixGetSum) {
 
 	/* Assert */
 	EXPECT_EQ(expected, actual);
+
+TEST(CalTestSuite, GobTest) {
+	EXPECT_EQ(getGop(3, 4), 12);
+  
 }
