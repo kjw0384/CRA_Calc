@@ -12,7 +12,6 @@ TEST(TestMinus, resultPositive) {
 	int exp = 5;
 
 	EXPECT_EQ(ret, exp);
-	EXPECT_TRUE(true);
 }
 
 TEST(TestMinus, resultNegative) {
@@ -21,7 +20,6 @@ TEST(TestMinus, resultNegative) {
 	int exp = -2;
 
 	EXPECT_EQ(ret, exp);
-	EXPECT_TRUE(true);
 }
 
 TEST(TestMinus, resultzero) {
@@ -30,5 +28,4 @@ TEST(TestMinus, resultzero) {
 	int exp = 0;
 
 	EXPECT_EQ(ret, exp);
-	EXPECT_TRUE(true);
 }
