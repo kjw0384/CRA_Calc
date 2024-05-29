@@ -1,6 +1,6 @@
 #include "pch.h"
+#include "../Project7/cal.cpp"
 
-TEST(TestCaseName, TestName) {
-  EXPECT_EQ(1, 1);
-  EXPECT_TRUE(true);
+TEST(Calc, TestDivide) {
+	EXPECT_EQ(2, getDivide(2, 1));
 }
